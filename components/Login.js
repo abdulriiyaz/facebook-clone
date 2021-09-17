@@ -10,7 +10,7 @@ function Login() {
             width={400}height={400} alt='Login'/>
             <button 
             onClick={signIn}
-            className="p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer">Login with Facebook</button>
+            className="p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer hover:animate-pulse">Login with Facebook</button>
         </div>
     )
 }
